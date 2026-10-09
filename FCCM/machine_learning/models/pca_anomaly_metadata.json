@@ -1,0 +1,23 @@
+{
+    "algorithm": "PCA Reconstruction Error",
+    "model_type": "Unsupervised Anomaly Detection",
+    "features": [
+        "Amount",
+        "Account_Age_Days",
+        "Transaction_Count_24H",
+        "Total_Amount_24H",
+        "IP_Risk_Score",
+        "Previous_Fraud_Count",
+        "Is_PEP"
+    ],
+    "training_samples": 10000,
+    "total_features": 7,
+    "target_variance": 0.95,
+    "n_components": 5,
+    "variance_retained": 0.8135165089608438,
+    "anomaly_percentile": 95,
+    "anomaly_threshold": 0.6745645525397324,
+    "normal_transactions": 9500,
+    "anomalous_transactions": 500,
+    "anomaly_percentage": 5.0
+}
